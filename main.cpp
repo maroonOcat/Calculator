@@ -1,5 +1,6 @@
 // main.cpp
-
+#include "stdafx.h"
+#include "funcs.h"
 #include <iostream>
 using namespace std;
 
@@ -19,13 +20,13 @@ int main()
 	switch (operation)
 	{
 	case 1:
-		cout << "Addition is complete \n";
+		cout << Add(number1, number2) << endl;
 		break;
 	case 2:
 		cout << "Subtraction is complete\n";
 		break;
 	case 3:
-		cout << "Multiplication is complete\n";
+		cout << Mul(number1, number2) << endl;
 		break;
 	case 4:
 		cout << "Division is complete\n";
