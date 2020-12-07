@@ -23,13 +23,13 @@ int main()
 		cout << Add(number1, number2) << endl;
 		break;
 	case 2:
-		cout << "Subtraction is complete\n";
+		cout << Sub(number1, number2) << endl;
 		break;
 	case 3:
 		cout << Mul(number1, number2) << endl;
 		break;
 	case 4:
-		cout << "Division is complete\n";
+		cout << Div(number1, number2) << endl;
 		break;
 	default:
 		cout << "Error\n";
